@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vein_vantage:block/forge_minerale_top_start",
+    "up": "vein_vantage:block/forge_minerale_top_start",
+    "north": "vein_vantage:block/forge_minerale_start",
+    "east": "vein_vantage:block/forge_minerale_start",
+    "south": "vein_vantage:block/forge_minerale_start",
+    "west": "vein_vantage:block/forge_minerale_start",
+    "particle": "vein_vantage:block/forge_minerale_top_start"
+  },
+  "render_type": "solid"
+}

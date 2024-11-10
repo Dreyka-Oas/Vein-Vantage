@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "b": {
+      "item": "minecraft:cobblestone"
+    },
+    "c": {
+      "item": "minecraft:granite"
+    }
+  },
+  "result": {
+    "id": "vein_vantage:debris_extractor",
+    "count": 1
+  }
+}

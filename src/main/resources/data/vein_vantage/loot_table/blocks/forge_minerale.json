@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "vein_vantage:blocks/forge_minerale",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "vein_vantage:forge_minerale"
+        }
+      ]
+    }
+  ]
+}

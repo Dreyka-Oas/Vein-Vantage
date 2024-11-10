@@ -1,0 +1,347 @@
+{
+  "mod_elements": [
+    {
+      "name": "VeinSweep",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vein_sweep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vein_vantage/enchantment/vein_sweep.json"
+        ]
+      }
+    },
+    {
+      "name": "VeinSweepStart",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vein_sweep_start",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/veinvantage/procedures/VeinSweepStartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClearingStrike",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clearing_strike",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vein_vantage/enchantment/clearing_strike.json"
+        ]
+      }
+    },
+    {
+      "name": "ClearingStrikeStart",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "clearing_strike_start",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/veinvantage/procedures/ClearingStrikeStartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DebrisExtractorWhenIsInInventory",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debris_extractor_when_is_in_inventory",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/veinvantage/procedures/DebrisExtractorWhenIsInInventoryProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DebrisExtractor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debris_extractor",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/veinvantage/item/DebrisExtractorItem.java",
+          "src/main/resources/assets/vein_vantage/models/item/debris_extractor.json"
+        ]
+      }
+    },
+    {
+      "name": "DebrisExtractorInformationSpeciale",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debris_extractor_information_speciale",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/oas/work/veinvantage/procedures/DebrisExtractorInformationSpecialeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DebrisExtractorLitemAtilUnEffetLumineux",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debris_extractor_litem_atil_un_effet_lumineux",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/oas/work/veinvantage/procedures/DebrisExtractorLitemAtilUnEffetLumineuxProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DebrisExtractorRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debris_extractor_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/veinvantage/procedures/DebrisExtractorRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ForgeMinerale",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_minerale",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vein_vantage/blockstates/forge_minerale.json",
+          "src/main/resources/assets/vein_vantage/models/block/forge_minerale.json",
+          "src/main/resources/data/vein_vantage/loot_table/blocks/forge_minerale.json",
+          "src/main/resources/assets/vein_vantage/models/item/forge_minerale.json",
+          "src/main/java/oas/work/veinvantage/block/ForgeMineraleBlock.java",
+          "src/main/java/oas/work/veinvantage/block/entity/ForgeMineraleBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ForgeMineraleGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_minerale_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/veinvantage/client/gui/ForgeMineraleGUIScreen.java",
+          "src/main/java/oas/work/veinvantage/world/inventory/ForgeMineraleGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "ForgeMineraleUpdateTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_minerale_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/veinvantage/procedures/ForgeMineraleUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DebrisExtractorCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debris_extractor_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vein_vantage/recipe/debris_extractor_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "ForgeMineralCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_mineral_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vein_vantage/recipe/forge_mineral_craft.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "time_dist",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "block_broken",
+      "type": "blockstate",
+      "scope": "player_lifetime",
+      "value": "Blocks.AIR.defaultBlockState()"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~CUSTOM:ClearingStrike",
+      "~CUSTOM:VeinSweep"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:DebrisExtractor"
+    ],
+    "ENCHANTMENTS:minecraft:tradeable": [
+      "~CUSTOM:ClearingStrike",
+      "~CUSTOM:VeinSweep"
+    ],
+    "ENCHANTMENTS:minecraft:treasure": [
+      "~CUSTOM:ClearingStrike",
+      "~CUSTOM:VeinSweep"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.vein_vantage.forge_minerale": "Forge Minerale",
+      "enchantment.vein_vantage.vein_sweep": "Vein Sweep",
+      "enchantment.vein_vantage.clearing_strike": "Clearing Strike",
+      "item.vein_vantage.debris_extractor": "Debris Extractor"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "vein_vantage",
+    "modName": "Vein Vantage",
+    "version": "0.0.8",
+    "description": "Vein Vantage",
+    "author": "Dreyka Oas",
+    "websiteURL": "https://mcreator.net",
+    "license": "Apache License version 2.0",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "oas.work.veinvantage"
+  },
+  "mcreatorVersion": 202400445618
+}

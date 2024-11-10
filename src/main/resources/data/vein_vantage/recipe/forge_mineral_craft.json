@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherrack"
+    },
+    "b": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "id": "vein_vantage:forge_minerale",
+    "count": 1
+  }
+}
