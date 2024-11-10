@@ -331,7 +331,7 @@
     "version": "0.0.8",
     "description": "Vein Vantage",
     "author": "Dreyka Oas",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://github.com/Dreyka-Oas/Vein-Vantage.git",
     "license": "Apache License version 2.0",
     "serverSideOnly": false,
     "modPicture": "logo",
@@ -340,7 +340,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Tanks To ME",
     "modElementsPackage": "oas.work.veinvantage"
   },
   "mcreatorVersion": 202400445618
