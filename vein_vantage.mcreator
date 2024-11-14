@@ -328,8 +328,8 @@
   "workspaceSettings": {
     "modid": "vein_vantage",
     "modName": "Vein Vantage",
-    "version": "0.0.8",
-    "description": "Vein Vantage",
+    "version": "0.0.9-1",
+    "description": "Better Mining",
     "author": "Dreyka Oas",
     "websiteURL": "https://github.com/Dreyka-Oas/Vein-Vantage.git",
     "license": "Apache License version 2.0",

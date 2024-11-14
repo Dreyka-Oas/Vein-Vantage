@@ -4,13 +4,13 @@ license="Apache License version 2.0"
 
 [[mods]]
 modId="vein_vantage"
-version="0.0.8"
+version="0.0.91"
 displayName="Vein Vantage"
 displayURL="https://github.com/Dreyka-Oas/Vein-Vantage.git"
 logoFile="logo.png"
 credits="Tanks To ME"
 authors="Dreyka Oas"
-description="Vein Vantage"
+description="Better Mining"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

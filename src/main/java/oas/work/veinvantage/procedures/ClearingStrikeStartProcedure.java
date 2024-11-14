@@ -27,7 +27,6 @@ public class ClearingStrikeStartProcedure {
     public static void execute(LevelAccessor world, BlockPos origin, BlockState blockstate, Entity entity) {
         if (!(entity instanceof Player player)) return;
 
-        // Récupère le niveau de l'enchantement
         int enchantmentLevel = player.getMainHandItem().getEnchantmentLevel(
             world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT)
             .getOrThrow(ResourceKey.create(Registries.ENCHANTMENT, ResourceLocation.parse("vein_vantage:clearing_strike"))));
